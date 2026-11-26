@@ -28,7 +28,7 @@ THEMES = {
         "bg": "#10243a", "panel": "#17334f", "fg": "#f2f6fa",
         "button": "#235b83", "tree": "#ffffff"
     },
-    "black green red": {
+    "hacker": {
         "bg": "#080b08", "panel": "#151d16", "fg": "#72ff8b",
         "button": "#b51f2e", "tree": "#ffffff"
     },
@@ -332,7 +332,7 @@ def show_menu():
         ).pack(pady=4)
     tk.Label(
     content,
-    text="© 2026 Local Scanner · Version 1.1.3",
+    text="© 2026 Rozod - Local Scanner · Version 1.1.3",
     bg=colors["bg"],
     fg=colors["fg"],
     font=("Arial", 8)
@@ -690,8 +690,8 @@ The logo does not appear:
 The JPEG logo is optional. Install Pillow if you want JPEG support.
 
 CONTACT
-Project and updates: [your GitHub repository URL]
-Questions or bug reports: [your email address or GitHub Issues link]
+Project and updates: [github.com/RozodOfficial/Local-Scanner]
+Questions or bug reports: [github.com/RozodOfficial/Local-Scanner/issues]
 """
 
     text.insert("1.0", guide)
