@@ -316,7 +316,7 @@ def show_menu():
             pass
 
     tk.Label(
-        panel, text="Local Scanner", font=("Arial", 20, "bold"),
+        panel, text="Rozod Network Scanner", font=("Arial", 20, "bold"),
         bg=colors["panel"], fg=colors["fg"]
     ).pack(pady=(2, 12))
 
